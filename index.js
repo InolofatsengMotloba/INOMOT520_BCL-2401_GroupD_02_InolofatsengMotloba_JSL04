@@ -32,13 +32,8 @@ console.log(WorkoutIntensity);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-console.log(``);
-
-if (currentTemp <= 5) {
-    console.log("Chilled to perfection!")
-} else {
-    console.log("Needs a cooler!")
-}
+let TemperatureSuitability = currentTemp <= 5 ? "Chilled to perfection!" : "Needs a cooler!";
+console.log(TemperatureSuitability);
 
 
 // #### Challenge 5: Late Night Coding Session
