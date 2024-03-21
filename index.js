@@ -5,15 +5,9 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
-console.log(``);
+let flavorSelection = userPreference === 'Sugar-free' ? 'Sugar-free' : userPreference === 'Regular' ? 'Regular' : 'undefined';
+console.log(flavorSelection);
 
-if (userPreference === 'Sugar-free'){
-    console.log('Sugar-free')
-} else if (userPreference === 'Regular'){
-    console.log('Regular')
-} else {
-    console.log('undefined')
-}
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
